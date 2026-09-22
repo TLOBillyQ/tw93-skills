@@ -1,0 +1,30 @@
+{
+  "name": "tw93-skills",
+  "version": "3.35.0",
+  "description": "Tw93's agent skills (Waza + kami) packaged as a Kimi Code CLI plugin: think, ui, check, hunt, write, learn, read, health and kami.",
+  "author": {
+    "name": "Tw93",
+    "url": "https://github.com/tw93"
+  },
+  "homepage": "https://github.com/tw93/Waza",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "engineering",
+    "planning",
+    "code-review",
+    "debugging",
+    "ui",
+    "writing",
+    "research",
+    "typesetting"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Tw93 Skills",
+    "shortDescription": "Engineering habits and document typesetting: think, ui, check, hunt, write, learn, read, health, kami",
+    "longDescription": "Tw93's Waza skills plus kami, ported to Kimi Code CLI. Plan before building (think), build interfaces with a point of view (ui), review before shipping (check), confirm root cause before fixing (hunt), cut the AI taste from prose (write), research an unfamiliar domain (learn), read any URL or PDF (read), audit agent config and maintainability (health), and typeset documents and landing pages (kami).",
+    "developerName": "Tw93 (Kimi Code port by qinyuanj)",
+    "websiteURL": "https://github.com/tw93/Waza"
+  }
+}
