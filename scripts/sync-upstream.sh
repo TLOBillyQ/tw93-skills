@@ -64,7 +64,7 @@ fi
 find "$REPO/skills" -name '.DS_Store' -delete
 
 # core.autocrlf=true 时检出的是 CRLF，统一回 LF，工作树与上游一致
-python3 - "$REPO" <<'EOF'
+python3 - "$REPO/skills" <<'EOF'
 import pathlib, sys
 n = 0
 for p in pathlib.Path(sys.argv[1]).rglob('*'):
